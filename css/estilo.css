@@ -1,0 +1,379 @@
+
+*{
+	
+	backface-visibility: hidden;
+	font-family: sans-serif;
+	
+		
+	
+		
+	}
+
+
+
+
+
+                                        /*Encabezado y Menu*/
+.ventas-telefonicas{
+	display: flex;
+    border: 1px solid black;
+    background: black;
+    color: white
+}
+div.ventas-telefonicas p {
+	font-family: monospace;
+
+}
+header{
+	/*background-color: black;*/
+	/*background-image:url("https://st3.depositphotos.com/1010683/14421/i/600/depositphotos_144217965-stock-photo-blurred-shopping-mall-background 1887x361.jpg") ;*/
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+
+}
+
+
+
+.imagLogo{
+	margin-bottom: -165px;
+    padding-left: 200px;
+    height: 300px;
+    padding-bottom: 0px;
+    height: 210px;
+}
+@media screen and (max-width: 425px){
+	header{
+		color: antiquewhite;
+		background-color: black;
+
+	}
+	
+}
+
+h1.titulo{
+	text-align: center;
+    margin-top: 28px;
+    
+    border: solid balck;
+    height: 133px;
+    font-style: oblique;
+    font-size: 80px;
+    font-family: system-ui;
+    color: #33394c;
+    padding: 10px 0px 140px;
+}
+@media screen and(ma
+	x-width: 425px){
+
+}
+       .titulo{
+       	font-size: 30px;
+       }
+	
+
+.tituloProductos{
+	text-align: center;
+	background-color: skyblue;
+	color: white;
+}
+
+.Grid{																	/*Grid*/
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr  ;
+	grid-template-rows:1fr 1fr 1fr 1fr 1fr ;
+	border: 2 solid black;
+
+
+}
+#menu{
+	
+}
+
+
+#menu .menulistas li a{
+	display:block;
+    text-decoration: none;
+	color: skyblue;
+	padding: 20px 150px;
+	
+
+}
+#menu .menulistas li a:hover{
+	background-color: dimgrey;
+}
+#menu .menulistas li{
+	display: inline-block;
+}
+.menulistas{
+	list-style-type: none;
+	overflow: hidden;
+	
+	
+
+}
+div.menu-backgroundimg{background-image: url(https://dnb2eg0emsxdz.cloudfront.net/cdn/13/images/curso-online-venta-en-perfumeria_l_primaria_1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	opacity: 60%;
+	margin: 10px;
+
+
+}
+div.menu-backgroundimg p {
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 240px;
+    font-size: 30px;
+    font-family: system-ui;
+    font-variant-caps: petite-caps
+}
+
+
+h2 {
+	text-align: center;
+	background-color: skyblue;
+	color: white;
+	text-decoration: underline;
+}
+
+div.img-contain{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+div.imgcontain:before {
+	content: "";
+	width: 100%;
+	min-height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+	
+.imagenPerfumes{
+	width: 100%;
+	
+}
+
+
+
+											/* Tinturas*/
+section.tinturasdepelo {
+	background-image: url(./sistem.jpg);
+	background-size: 65%;
+	background-repeat: no repeat;
+	background-position: center;
+
+
+
+}
+.labiales{
+	width: 300px;
+	display: block;
+    margin: auto;
+    
+	
+}	
+.zapato{
+	
+    margin: auto;
+    width: 300px;
+    display: block;
+    border: 2 solid black;
+}
+.hombre212 {	
+
+	margin: auto;
+    width: 300px;
+    display: block;
+
+}
+.bañoDeCrema{
+	width: 300px;
+	display: block;
+    margin: auto;
+}
+.skala{
+	width: 300px;
+	display: block;
+    margin: auto;
+}
+.tinturas{
+	background: whitesmoke;
+
+}
+.tinturaslistas{
+	color: blueviolet;
+}
+.sectionTinturas{
+	background-color: skyblue;
+}
+.tinturaOpcion{
+	display: block;
+	margin: auto;
+	width: 300px;
+}
+.tinturaIssueProfesional{
+	display: block;
+	margin: auto;
+	width: 300px;
+}
+.Nov{
+	display: block;
+	margin: auto;
+	width: 300px
+}
+.sistem3{
+	display: block;
+	margin: auto;
+	width: 300px;
+}
+											/*Polvos Decolorantes*/
+.polvos_decolorantes{
+	background: whitesmoke;
+}
+.polvos_decolorantes_listas{
+	color: blueviolet;
+}
+											/*Maquillaje*/
+.maquillaje{
+	background: whitesmoke;
+
+}
+.maquillaje_clase{
+	color: blueviolet;
+}
+h3{display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+	color:skyblue ;
+	background-color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+h3:hover{
+	background-color: drimgray;
+}
+
+											/*Seccion Promos*/
+
+.promos{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr  ;
+	grid-template-rows:1fr 1fr  ;
+	border: 2 solid black;
+	background-image: linear-gradient(to left, white, skyblue);
+
+
+}
+@media(min-width: 425px){
+
+	.promos{
+
+	}
+
+.imgpromos{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+                                          /* Seccion Login*/
+											/*Transition*/
+input{
+	width: 100px; height: 25px;
+   transition: all 2s;       
+
+}
+#nombre:focus {
+	width: 200px;
+	font-size: 24px;
+}
+#Email:focus{
+	width: 200px;
+	font-size: 24px;
+}
+#pass:focus{
+	width: 200px;
+	font-size: 24px;
+}
+#comentario{
+	width: 200px;
+	font-size: 24px;
+}
+                                       
+.formularioDeLogin{
+	text-align: center;
+}
+h1.tituloLogin{
+	background-color: skyblue;
+	color: white;
+	text-align: center;
+}
+.bodyProductos{
+	background-color:white ;
+}
+#Login{
+	background-color: skyblue;
+}
+
+}
+.Redes{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Redes div{
+	padding: 140px;
+}
+.img-instagram{
+	
+	display: block;
+}
+.instagram{
+	padding: 0px 105px;
+}
+.img-logo-face{
+	width: 217px;
+    padding: 14px;
+
+}
+.Redes a{
+	padding: 0px 62px;
+}
+.face{
+	display: flex;
+    flex-direction: column-reverse;
+}
+
+.link-face{
+	padding: 0px 0px 0px 81px;
+}
+.footer{
+	/*background: linear-gradient(to left, white, skyblue);*/
+}
+.Copyright{
+	font-size: 15px;
+	text-align: center;
+}
