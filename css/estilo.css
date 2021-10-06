@@ -16,14 +16,14 @@
                                         /*Encabezado y Menu*/
 .ventas-telefonicas{
 	display: flex;
-    border: 1px solid black;
-    background: black;
-    color: white
-}
-div.ventas-telefonicas p {
-	font-family: monospace;
+	border: 1px solid black;
+	background: black;
+	color: white;
+	padding: 10px;
+	font-size: 10px;
 
 }
+
 header{
 	/*background-color: black;*/
 	/*background-image:url("https://st3.depositphotos.com/1010683/14421/i/600/depositphotos_144217965-stock-photo-blurred-shopping-mall-background 1887x361.jpg") ;*/
@@ -37,22 +37,15 @@ header{
 
 
 .imagLogo{
-	margin-bottom: -165px;
-    padding-left: 200px;
-    height: 300px;
-    padding-bottom: 0px;
-    height: 210px;
-}
-@media screen and (max-width: 425px){
-	header{
-		color: antiquewhite;
-		background-color: black;
-
-	}
 	
+    padding-left: 29px;
+   
+    padding-bottom: 0px;
+    height: 155px;
 }
 
-h1.titulo{
+
+/* h1.titulo{
 	text-align: center;
     margin-top: 28px;
     
@@ -63,14 +56,8 @@ h1.titulo{
     font-family: system-ui;
     color: #33394c;
     padding: 10px 0px 140px;
-}
-@media screen and(ma
-	x-width: 425px){
+} */
 
-}
-       .titulo{
-       	font-size: 30px;
-       }
 	
 
 .tituloProductos{
@@ -88,32 +75,38 @@ h1.titulo{
 
 }
 #menu{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
 	
 }
 
 
 #menu .menulistas li a{
+	
 	display:block;
     text-decoration: none;
-	color: skyblue;
-	padding: 20px 150px;
+	color: pink;
+	/* padding: 20px 150px; */
 	
 
 }
 #menu .menulistas li a:hover{
-	background-color: dimgrey;
+	cursor: pointer;
 }
 #menu .menulistas li{
-	display: inline-block;
+	padding: 0px 10px;
 }
 .menulistas{
 	list-style-type: none;
 	overflow: hidden;
+	display: contents;
+	background-color: black;
 	
 	
 
 }
-div.menu-backgroundimg{background-image: url(https://dnb2eg0emsxdz.cloudfront.net/cdn/13/images/curso-online-venta-en-perfumeria_l_primaria_1.jpg);
+/* div.menu-backgroundimg{background-image: url(https://dnb2eg0emsxdz.cloudfront.net/cdn/13/images/curso-online-venta-en-perfumeria_l_primaria_1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 900px;
@@ -135,12 +128,12 @@ div.menu-backgroundimg p {
     font-size: 30px;
     font-family: system-ui;
     font-variant-caps: petite-caps
-}
+} */
 
 
 h2 {
 	text-align: center;
-	background-color: skyblue;
+	background-color:pink;
 	color: white;
 	text-decoration: underline;
 }
@@ -179,67 +172,7 @@ section.tinturasdepelo {
 
 
 }
-.labiales{
-	width: 300px;
-	display: block;
-    margin: auto;
-    
-	
-}	
-.zapato{
-	
-    margin: auto;
-    width: 300px;
-    display: block;
-    border: 2 solid black;
-}
-.hombre212 {	
 
-	margin: auto;
-    width: 300px;
-    display: block;
-
-}
-.bañoDeCrema{
-	width: 300px;
-	display: block;
-    margin: auto;
-}
-.skala{
-	width: 300px;
-	display: block;
-    margin: auto;
-}
-.tinturas{
-	background: whitesmoke;
-
-}
-.tinturaslistas{
-	color: blueviolet;
-}
-.sectionTinturas{
-	background-color: skyblue;
-}
-.tinturaOpcion{
-	display: block;
-	margin: auto;
-	width: 300px;
-}
-.tinturaIssueProfesional{
-	display: block;
-	margin: auto;
-	width: 300px;
-}
-.Nov{
-	display: block;
-	margin: auto;
-	width: 300px
-}
-.sistem3{
-	display: block;
-	margin: auto;
-	width: 300px;
-}
 											/*Polvos Decolorantes*/
 .polvos_decolorantes{
 	background: whitesmoke;
@@ -259,8 +192,8 @@ h3{display: block;
 	margin-right: auto;
 	margin-left: auto;
 	
-	color:skyblue ;
-	background-color: white;
+	/* color:skyblue ;
+	background-color: white; */
 	text-align: center;
 	text-decoration: underline;
 }
@@ -271,33 +204,44 @@ h3:hover{
 											/*Seccion Promos*/
 
 .promos{
-	display: grid;
-	grid-template-columns:1fr 1fr 1fr  ;
-	grid-template-rows:1fr 1fr  ;
-	border: 2 solid black;
-	background-image: linear-gradient(to left, white, skyblue);
+	display: flex;
+	
+	
+	
+	
+
+                                                 /*CARDS*/
+}
+.container_card{
+	width: 100%;
+	max-width: 1200px;
+	height: 430px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: auto;
+}
+.container_card .card{
+	width: 330px;
+	height: 456px;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px rgba(0, 0,0, 0,2);
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+.container_card .card:hover{
+	transform: translateY(-15px);
+	box-shadow: 0 12ps 16px rgba(0,0, 0, 0.2)
 
 
 }
-@media(min-width: 425px){
-
-	.promos{
-
-	}
-
-.imgpromos{
-
+.container_card .card img{
+	width: 176px;
+	height: 280px;
 
 }
-
-
-
-
-
-
-
-
-
 
                                           /* Seccion Login*/
 											/*Transition*/
@@ -306,25 +250,36 @@ input{
    transition: all 2s;       
 
 }
-#nombre:focus {
-	width: 200px;
-	font-size: 24px;
+#nombre {
+	width: 350px;
+	font-size: 18px;
+	border-radius: 10px;
+	height: 50px;
 }
-#Email:focus{
-	width: 200px;
-	font-size: 24px;
+#Email{
+	width: 350px;
+	font-size: 18px;
+	border-radius: 10px;
+	height: 50px;
 }
-#pass:focus{
-	width: 200px;
-	font-size: 24px;
+#pass{
+	width: 350px;
+	font-size: 18px;
+	border-radius: 10px;
+	height: 50px;
 }
 #comentario{
 	width: 200px;
-	font-size: 24px;
+	font-size: 18px;
 }
                                        
 .formularioDeLogin{
 	text-align: center;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 50%;
+	padding: 85px;
 }
 h1.tituloLogin{
 	background-color: skyblue;
@@ -338,15 +293,13 @@ h1.tituloLogin{
 	background-color: skyblue;
 }
 
-}
-.Redes{
+div.Redes{
 	display: flex;
-    flex-direction: row;
-    justify-content: center;
+	align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.Redes div{
-	padding: 140px;
-}
+
 .img-instagram{
 	
 	display: block;
@@ -376,4 +329,65 @@ h1.tituloLogin{
 .Copyright{
 	font-size: 15px;
 	text-align: center;
+}
+														/*Media Quaries*/
+@media screen and (min-width: 375px) and (max-width: 768px)
+{
+	
+ 	h1.titulo{
+       	
+       	font-size: 0px;
+
+       }
+       img.imagLogo{
+       	padding: 50px;
+       	width: 300px;
+       }
+ }
+
+	
+
+
+      
+       }
+      /* @media screen and (max-width: 425px){
+	header{
+		color: antiquewhite;
+
+		
+		dis
+*/
+	}
+	
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+	 div.menu-backgroundimg{
+		display: none;  !important
+
+	}
+	
+	
+}
+@media screen and  (min-width: 425px) and (max-width: 1024px){
+	.VentasTelefonicas{
+		font-size: 10px;
+
+	}
+}
+@media screen and  (min-width: 425px) and (max-width: 1024px){
+	.historia{
+		opacity: 0%;
+	}
+
+
+
+}
+.carrusel{
+	width: 57%;
+    margin: 0px 283px;
+}
+.menu{
+    background: pink;
+    background-color: pink;
+
 }
