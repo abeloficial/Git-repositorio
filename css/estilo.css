@@ -362,30 +362,30 @@ div.Redes{
 */
 	
 	
-}
+
 @media screen and (min-width: 425px) and (max-width: 768px){
 	 div.menu-backgroundimg{
-		display: none;  !important
+		/* display: none;  !important */
 
 	}
 	
 	
 }
-@media screen and  (min-width: 425px) and (max-width: 1024px){
+@media screen and  (min-width: 360px) and (max-width: 1024px){
 	.VentasTelefonicas{
 		font-size: 10px;
 
 	}
 	.container_card{
 		width: 600px;
-		height: 10%;
+		/* height: 10%; */
 	}
 	.card{
-		width: 40%;
-		height: 50%;
+		width: 368px;
+		height: 255px;
 	}
 	.img_card{
-	 margin: 29px -26px;
+	 margin: px -26px;
 	}
 	h4{
 		font-size: 15px;
