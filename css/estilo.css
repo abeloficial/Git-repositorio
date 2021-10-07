@@ -343,13 +343,16 @@ div.Redes{
        	padding: 50px;
        	width: 300px;
        }
- }
-
+	   
+	   }
+	   
+ 
+ 
 	
 
 
       
-       }
+       
       /* @media screen and (max-width: 425px){
 	header{
 		color: antiquewhite;
@@ -357,7 +360,7 @@ div.Redes{
 		
 		dis
 */
-	}
+	
 	
 }
 @media screen and (min-width: 425px) and (max-width: 768px){
@@ -372,6 +375,23 @@ div.Redes{
 	.VentasTelefonicas{
 		font-size: 10px;
 
+	}
+	.container_card{
+		width: 600px;
+		height: 10%;
+	}
+	.card{
+		width: 40%;
+		height: 50%;
+	}
+	.img_card{
+	 margin: 29px -26px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	p{
+		display: none;
 	}
 }
 @media screen and  (min-width: 425px) and (max-width: 1024px){
