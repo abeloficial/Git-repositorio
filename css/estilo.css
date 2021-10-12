@@ -242,6 +242,103 @@ h3:hover{
 	height: 280px;
 
 }
+.parrafo_card{
+	text-decoration: line-through;
+	opacity: 45%;
+
+}
+.strong{
+	color: red;
+}
+
+/*CARDS 3D*/
+
+section{
+	display: flex;
+	background: rgb(230, 224, 224);
+	
+}
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: flex;
+	justify-content: center;
+}															
+.tarjeta_wrap{
+	margin: 10px;
+	-webkit-perspective: 500;
+	perspective: 500;
+	display: flex;
+}
+.tarjeta{
+	width: 300px;
+	height: 350px;
+	background: pink;
+	position: relative;
+	transform-style: preserve-3d;
+	transition: .4s ease;
+	
+}													
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	background: pink;
+}
+.atras{
+ transform: rotateY(180deg);
+ padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family:"open sans";
+}
+.tarjeta_wrap:hover .tarjeta{
+	transform: rotateY(180deg);
+	
+}
+.cardd1{
+	background-image: url(../imagenes/cicatricure.jpg);
+	background-size: cover;
+	border-radius: 10px 10px;
+}
+.cardd2{
+	background-image: url(../imagenes/cicatricure1.jpg);
+	background-size: cover;
+	border-radius: 10px 10px;
+}
+.cardd3{
+	background-image: url(../imagenes/Farol-Lampara-Barberia-Chico13000.jpg);
+	background-size: cover;
+	border-radius: 10px 10px;
+}
+.cardd4{
+	background-image: url(../imagenes/Guantes-de-Examinacion-Latex-x100-Unidades1800.jpg);
+	background-size: cover;
+	border-radius: 10px 10px;
+}
+.cardd5{
+	background-image: url(../imagenes/higienol.jpg);
+	background-size: cover;
+	border-radius: 10px 10px;
+}
+.cardd6{
+	background-image: url(../imagenes/plasma.jpg);
+	background-size: cover;
+	border-radius: 30px 50px;
+}
+
+
+
+
+
+
 
                                           /* Seccion Login*/
 											/*Transition*/
@@ -324,11 +421,18 @@ div.Redes{
 	padding: 0px 0px 0px 81px;
 }
 .footer{
+	
 	/*background: linear-gradient(to left, white, skyblue);*/
+}
+
+.container_copyright{
+	background-color: pink;
 }
 .Copyright{
 	font-size: 15px;
 	text-align: center;
+	color: white;
+	background-color: pink;
 }
 														/*Media Quaries*/
 @media screen and (min-width: 375px) and (max-width: 768px)
